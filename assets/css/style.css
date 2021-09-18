@@ -1,0 +1,241 @@
+:root {
+  --main-color: #394049;
+  --sec-color: #160202;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.main_cv {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid rgb(106, 179, 139);
+  padding: 10px;
+  background: #acac8279;
+}
+
+.block_cv {
+  display: flex;
+  max-width: 800px;
+  flex-direction: row;
+  justify-content: left;
+  margin: 0 auto;
+}
+.left_column {
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin: 0 auto;
+  border: 1px solid rgb(106, 179, 139);
+  padding: 20px;
+  background: grey;
+}
+
+.right_column {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  justify-content: right;
+  margin: 0 auto;
+  border: 1px solid rgb(106, 179, 139);
+  padding: 20px;
+  background: rgb(128, 128, 128);
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  color: sec-color;
+}
+
+h1 {
+  color: var(--main-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  color: var(--sec-color);
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+
+
+}
+
+/* section {
+  color: #E7E4D0;
+  transition: 0.5s linear;
+
+}
+
+section:target {
+  background: #E7E4D0;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 4px #9c9c9c;
+} */
+
+h3 {
+  font-size: smaller;
+  color: whitesmoke;
+}
+
+ul {
+  padding: 0; /* Убираем отступы слева у списков*/
+  margin-left: 20px;
+}
+
+.li_contacts {
+  color: rgb(17, 0, 255);
+  display: flex;
+  background-color: rgba(15, 10, 10, 0.068);
+  border-radius: 20px;
+  padding: 0px 20px 0px 0px;
+  /* min-width: 50px; */
+  margin-top: 0.7em;
+  /* margin-bottom: 0.25em; */
+  margin-left: -10px;
+  /* margin-right:0px; */
+}
+
+
+.header_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header_item {
+  margin-right: 20px;
+  padding: 2px 5px 2px 5px;
+  background-color: rgba(93, 112, 64, 0.281);
+  border-radius: 5px;
+  color: rgb(59, 49, 37);
+  text-decoration: none;
+  list-style-type: none;
+
+  text-decoration: none; /*подчеркивание ссылок*/
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.header_item:hover {
+  background-size: 100% 2px; /*подчеркивание ссылок*/
+  opacity: 0.7;
+}
+
+.header_item:last-child {
+  margin-right: 15px;
+}
+
+.header_link {
+  color: rgb(9, 53, 93);
+  /* font-size: 1.1rem; */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.career {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.lang {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.code_example {
+  text-align: left;
+}
+
+.code_ex {
+  color: var(--sec-color);
+  font-size: 1em;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.project_ex {
+  margin-bottom: 20px;
+}
+
+.tech_skills {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.work_expr {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.educ {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.pers_qual {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.pers_inter {
+  color: var(--sec-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.video_present {
+  font-size: 1em;
+}
+
+.footer {
+  max-height: 50px;
+  /* max-width: 800px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 0px 40px 0px 20px;
+  color: white;
+  background-color: #4d4e52d0;
+}
+.footer_git {
+  position: relative;
+  padding-left: 50px;
+}
+
+.footer_2021 {
+  justify-self: center;
+  font-size: 1rem;
+}
+.footer_rss {
+  padding-bottom: 20;
+  justify-self: end;
+  height: 32px;
+}
