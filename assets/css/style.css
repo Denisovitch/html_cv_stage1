@@ -124,19 +124,19 @@ body {
   margin-right: 10px;
 }
 .contact__image_github {
-  background-image: url(assets/images/Octocat.png);
+  background-image: url(../images/Octocat.png);
 }
 .contact__image_discord {
-  background-image: url(assets/images/discord.png);
+  background-image: url(../images/discord.png);
 }
 .contact__image_linked {
-  background-image: url(assets/images/linkedin-logo.png);
+  background-image: url(../images/linkedin-logo.png);
 }
 .contact__image_email {
-  background-image: url(assets/images/gmail.png);
+  background-image: url(../images/gmail.png);
 }
 .contact__gps {
-  background-image: url(assets/images/gps.png);
+  background-image: url(../images/gps.png);
 }
 .contact__link {
   color: var(--text-color);
